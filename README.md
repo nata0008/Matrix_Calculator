@@ -13,6 +13,7 @@ WPF-додаток на C# / .NET 8 для виконання операцій �
 - Автоматичні тести методів класу `MatrixModel`
 
 ## Структура проекту
+```markdown
 MatrixApp/
 ├── Matrix/
 │   ├── Matrix.cs              # Клас MatrixModel — основна логіка операцій
@@ -22,6 +23,7 @@ MatrixApp/
 │   └── MainWindow.xaml.cs     # Логіка головного вікна
 └── Matrix.Tests/
 └── Test1.cs               # Автоматичні тести
+```
 ## Запуск
 
 ### Вимоги
@@ -83,8 +85,9 @@ flowchart TD
         Q2 -- Ні --> E2
     end
 ```
-
+```markdown
 ## Формат файлу matrices.txt
+
 Матриця A
 2 2
 1 2
@@ -93,6 +96,7 @@ flowchart TD
 2 3
 5 6 7
 8 9 10
+```
 ## Технології
 
 | Технологія | Версія |
